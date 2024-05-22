@@ -1,0 +1,10 @@
+
+filename = 'testfile.txt'
+content = "This is a sample text file for socket communication."
+
+with open(filename, 'w') as file:
+    file.write(content)
+
+print(f"{filename} created successfully.")
+
+Successfully Done !!!
